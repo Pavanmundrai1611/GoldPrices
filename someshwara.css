@@ -1,0 +1,164 @@
+/* Styling for h3 */
+h3 {
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    color: rgb(32, 20, 207);
+    font-weight: 50;
+   
+}
+
+.titlediv{
+    width: auto;
+    color: rgb(230, 5, 5);
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Sree Krushnadevaraya', serif;
+}
+/* Styling for labels 
+
+
+*/
+#submit, button{
+    border-radius: 13px;
+    border: 1px solid black;
+    color: white;
+    background-color:rgb(237, 92, 8) ;
+}
+
+label {
+    font-family: 'NTR', sans-serif;
+    font-weight: 600;
+}
+
+/* Resetting margins for headers and paragraphs */
+h1, h2, h3, p {
+    margin: 0;
+}
+.date-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Sree Krushnadevaraya', serif;
+}
+#time{
+    margin-right:8px;
+}
+.om-icon {
+    font-size: 28px;
+    color: #f47c0b;
+}
+.container{
+    position: relative;
+}
+.c1{
+    position: absolute;
+    top:10%;
+    left: 5%;
+}
+.c2{
+    position: absolute;
+    top:10%;
+    right: 5%;
+}
+#gold-old-value,
+#gold-new-value,
+#silver-old-value,
+#time,#date,
+#silver-new-value {
+    color: red;
+    font-weight: 600;
+}
+
+.output-container {
+    text-align: center;
+    position: relative;
+    color: red;
+}
+#myDiv{
+    text-align: center;
+}
+#sn-sp{
+    left: 22%;
+    position: absolute;
+    top:15px;
+}
+#so-sa{
+    left: 22%;
+    position: absolute;
+    top:218px;
+}
+#sn,#sp,#so,#sa{
+    width:fit-content;
+    max-width: 200px;
+}
+
+
+#sn{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Sree Krushnadevaraya', serif;
+    letter-spacing: 0.2px;
+    text-shadow: 0px 2px 1px #dac6c6;
+    -webkit-text-fill-color: red;
+}
+#sp{
+    color: black;
+    font-weight: bolder;
+    font-size: 14PX;
+    font-family: 'NTR', sans-serif;
+}
+#so{
+    color: rgb(43, 5, 139);
+    font-weight: bolder;
+    font-size: 14PX;
+    font-family: 'Ramabhadra', sans-serif;
+}
+#sa{
+    color: black;
+    font-size: 15PX;
+}
+input{
+    width: 150px;
+}
+form input{
+    width: 80px;
+}
+
+
+
+
+.container {
+    background-color: rgb(235 230 230);
+    text-align: center;
+    width: 320px;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.container div{
+    margin: 5px;
+}
+.hd{
+    width: 150px;
+   font-weight: 700;
+   font-family: 'Sree Krushnadevaraya', serif;
+}
+.table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+    width: 100%;
+}
+.table td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center; 
+}
+.horizontal-line {
+    margin-top: 10px;
+    border-top: 1px dashed #000;
+}
+.tagline{
+    color: rgb(152, 9, 71);
+    font-size: 11px;
+    font-family: 'Anek Telugu', sans-serif;
+}
